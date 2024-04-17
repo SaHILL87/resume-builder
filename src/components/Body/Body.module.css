@@ -5,10 +5,12 @@
   align-items: center;
   gap: 30px;
   padding-top: 0;
+  background-color: purple;
 }
 
 .heading {
   font-weight: 500;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 2.1rem;
 }
 
@@ -30,7 +32,7 @@
   height: 36px;
   width: 36px;
   border-radius: 50%;
-  background-color: #239ce2;
+  background-color: hsl(267, 46%, 22%);
 }
 .colors .active {
   border: 2px solid #000;
@@ -39,7 +41,7 @@
 .toolbar button {
   padding: 8px 16px;
   border-radius: 5px;
-  background-color: #239ce2;
+  background-color: hsl(267, 46%, 22%);
   color: #fff;
   outline: none;
   border: none;
